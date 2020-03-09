@@ -1,0 +1,13 @@
+<div class="tictactoe-container">
+    <div class="field" id="0" (click)="step($event)">{{gameservice.table[0]}}</div>
+    <div class="field" id="1" (click)="step($event)">{{gameservice.table[1]}}</div>
+    <div class="field" id="2" (click)="step($event)">{{gameservice.table[2]}}</div>
+    <div class="field" id="3" (click)="step($event)">{{gameservice.table[3]}}</div>
+    <div class="field" id="4" (click)="step($event)">{{gameservice.table[4]}}</div>
+    <div class="field" id="5" (click)="step($event)">{{gameservice.table[5]}}</div>
+    <div class="field" id="6" (click)="step($event)">{{gameservice.table[6]}}</div>
+    <div class="field" id="7" (click)="step($event)">{{gameservice.table[7]}}</div>
+    <div class="field" id="8" (click)="step($event)">{{gameservice.table[8]}}</div>
+</div>
+
+<div class="btn btn-danger btn-lg" (click)="reset()" > Reset</div>
